@@ -1,0 +1,40 @@
+Shell Implementation
+Commands and Options
+
+Implemented shell commands: cd, mv, rm, ls, cp.
+Additional options implemented for commands, including the recursive and help options.
+Utilizes classes and objects, supports wildcard characters.
+Profiling Bash Script
+
+Creates directories with various file structures for testing.
+Uses the time command to measure the execution time for each case.
+Multi-threaded Implementation
+
+Multi-threaded implementation for commands involving recursion.
+Number of threads created intelligently based on available cores and workload.
+Uses the multi-threaded library.
+Profiling of Multi-threaded Version
+
+Bash script to time the multi-threaded commands for each case.
+Compares the performance with the previous single-threaded version.
+Execution Instructions
+Shell Implementation
+
+Compile and run your shell program.
+Provide necessary inputs for testing each command and option.
+Profiling Bash Script
+
+Run the provided bash script to create directories and measure command execution time.
+bash
+chmod +x profiling_script.sh
+./profiling_script.sh
+Multi-threaded Implementation
+
+Compile and run your multi-threaded shell program.
+Test the multi-threaded commands, especially those involving recursion.
+Profiling of Multi-threaded Version
+
+Run the provided bash script to measure multi-threaded command execution time.
+bash
+chmod +x profiling_multithreaded_script.sh
+./profiling_multithreaded_script.sh
